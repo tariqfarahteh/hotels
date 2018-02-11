@@ -1,0 +1,76 @@
+body{
+    padding: 15px;
+    padding-top: 10%;
+    width: 90%;
+    margin: auto auto;
+}
+
+.div-title{
+    width:100%;
+    font-size: 24px;
+    text-align: center;
+}
+.div-data-container{
+    width: calc(100% - 400px);
+    float: right;
+}
+.div-search{
+    float: left;
+    width: 400px;
+}
+
+.form-control{
+    margin: 5px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+.div-hotel-offer-item{
+    border: 1px solid silver;
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+    height: 92px;
+}
+
+
+img.img-hotel {
+    float: left;
+    margin-right: 10px;
+    width: 80px;
+}
+
+.div-hotel-name {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.div-hotel-pricing {
+    float: right;
+    margin: 0px 10px;
+    text-align: center;
+}
+
+.div-hote-org-price {
+    text-decoration: line-through;
+    color:red;
+    text-align: center;
+}
+
+.div-hote-total-price {
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+
+.div-no-data{
+    width:100%;
+    text-align: center;
+    font-size: 24px;
+    color:gray;
+    display: none;
+}

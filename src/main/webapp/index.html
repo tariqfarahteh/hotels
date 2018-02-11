@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/site.css">
+
+    <title></title>
+</head>
+
+<body>
+
+    <div class="div-title">
+        Hotel Booking
+    </div>
+    <div class="div-search">
+        <form>
+            <table class="tbl-search" cellspace="3" cellpadding="5">
+                <tr>
+                    <td colspan="3">
+                        <input type="input" class="form-control" name="destinationName" id="destinationName" placeholder="Destination Name" value="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="date" class="form-control" name="minTripStartDate" id="minTripStartDate" placeholder="Min Trip Start Date" value="">
+                    </td>
+                    <td style="width:10px;"></td>
+                    <td>
+                        <input type="date" class="form-control" name="maxTripStartDate" id="maxTripStartDate" placeholder="Max Trip Start Date" value="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <input type="number" class="form-control" name="lengthOfStay" id="lengthOfStay" placeholder="Length Of Stay" value="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="number" class="form-control" name="minStarRating" id="minStarRating" placeholder="Min Star Rating" value="">
+                    </td>
+                    <td style="width:10px;"></td>
+                    <td>
+                        <input type="number" class="form-control" name="maxStarRating" id="maxStarRating" placeholder="Max Star Rating" value="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="number" class="form-control" name="minTotalRate" id="minTotalRate" placeholder="Min Total Rate" value="">
+                    </td>
+                    <td style="width:10px;"></td>
+                    <td>
+                        <input type="number" class="form-control" name="maxTotalRate" id="maxTotalRate" placeholder="Max Total Rate" value="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="number" class="form-control" name="minGuestRating" id="minGuestRating" placeholder="Min Guest Rate" value="">
+                    </td>
+                    <td style="width:10px;"></td>
+                    <td>
+                        <input type="number" class="form-control" name="maxGuestRating" id="maxGuestRating" placeholder="Max Guest Rate" value="">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="3">
+                        <input type="button" class="btn btn-success" value="Search" id="btnSearch" onclick="submitForm(this)">
+                        <input type="button" class="btn btn-primary" value="Clear" id="btnClear" onclick="clearForm(this)">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+
+
+    <div class="div-data-container">
+        <div class="div-no-data"> No Data Found </div>
+        <ul id="ul_Hotels" class="ul-hotels-list" width="100%">
+
+        </ul>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
