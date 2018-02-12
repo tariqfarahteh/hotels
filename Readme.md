@@ -5,8 +5,7 @@ This is a solution to get hotels offers based on filters.
 We used in this solution a RESTful API to retrieve hotel offers.
 
 # App URL 
-	`https://safe-bayou-61729.herokuapp.com/`
-
+App URL :	https://safe-bayou-61729.herokuapp.com
 # Prerequisites
 
  1. Oracle Java JDK 1.8
@@ -28,14 +27,12 @@ A search area to filter the hotels offers based on the search criteria.
 
 ## Configuration
 There are two configuration files
-
- 1.Config.properties
-	This file contains:
-		A-Base URL for the webservice.
-		B-Required parameters with the values to make the values for the required parameters configurable.
+ 1. Config.properties; This file contains:
+		A- Base URL for the webservice.
+		B- Required parameters with the values to make the values for the required parameters configurable.
 		
- 2.Log4j.properties
-	This file contains the configuration for the log4j logging library, ex: log file path, File rolling, .... 
+ 2. Log4j.properties
+	    This file contains the configuration for the log4j logging library, ex: log file path, File rolling, .... 
 
 
 ## Technologies
