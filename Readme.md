@@ -1,5 +1,8 @@
 # Hotels Project!
 
+[![Build Status](https://travis-ci.org/tariqfarahteh/hotels.svg?branch=master)](https://travis-ci.org/tariqfarahteh/hotels)
+
+
 This is a solution to get hotels offers based on filters.
 
 We used in this solution a RESTful API to retrieve hotel offers.
